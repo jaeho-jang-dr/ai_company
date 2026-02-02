@@ -1,0 +1,46 @@
+{
+  "name": "ai-company",
+  "version": "1.0.0",
+  "description": "AI Nexus Corporation - AI-powered company with 54 agents organized into 6 departments and 18 teams",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx ts-node scripts/start-company.ts",
+    "demo": "npx ts-node scripts/demo.ts",
+    "ai-demo": "npx ts-node scripts/ai-demo.ts",
+    "dev": "npx ts-node src/index.ts",
+    "clean": "rimraf dist",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "multi-agent",
+    "orchestration",
+    "workflow",
+    "automation",
+    "typescript"
+  ],
+  "author": "AI Nexus Corporation",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/uuid": "^9.0.7",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ai-nexus/ai-company.git"
+  }
+}
