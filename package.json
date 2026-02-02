@@ -10,6 +10,7 @@
     "demo": "npx ts-node scripts/demo.ts",
     "ai-demo": "npx ts-node scripts/ai-demo.ts",
     "dev": "npx ts-node src/index.ts",
+    "status": "npx ts-node scripts/company-status.ts",
     "clean": "rimraf dist",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src --ext .ts"
