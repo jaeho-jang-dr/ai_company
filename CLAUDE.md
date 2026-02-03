@@ -96,16 +96,18 @@ Task assignment uses weighted scoring:
 
 ---
 
-## 추가 도구 리포지토리
+## 추가 도구 리포지토리 (공유 디렉토리)
+
+**경로:** `D:/Entertainments/DevEnvironment/tools/` (상위 디렉토리, 프로젝트 간 공유)
 
 | 리포지토리 | 위치 | 스킬 수 |
 |------------|------|---------|
-| notebooklm-automation | `tools/notebooklm-automation/` | 자료조사 자동화 |
-| antigravity-awesome-skills | `tools/antigravity-awesome-skills/` | 621개 |
-| my-skills (bear2u) | `tools/my-skills/` | 20개 |
-| wshobson-agents | `tools/wshobson-agents/` | 72개 |
-| anthropics-skills | `tools/anthropics-skills/` | 16개 |
-| everything-claude-code | `tools/everything-claude-code/` | 13개 |
+| notebooklm-automation | `../tools/notebooklm-automation/` | 자료조사 자동화 |
+| antigravity-awesome-skills | `../tools/antigravity-awesome-skills/` | 621개 |
+| my-skills (bear2u) | `../tools/my-skills/` | 20개 |
+| wshobson-agents | `../tools/wshobson-agents/` | 72개 |
+| anthropics-skills | `../tools/anthropics-skills/` | 16개 |
+| everything-claude-code | `../tools/everything-claude-code/` | 13개 |
 
 ---
 

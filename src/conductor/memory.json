@@ -65,32 +65,38 @@
   },
   "tool_repositories": {
     "notebooklm-automation": {
-      "path": "tools/notebooklm-automation",
+      "path": "D:/Entertainments/DevEnvironment/tools/notebooklm-automation",
+      "relativePath": "../tools/notebooklm-automation",
       "purpose": "자료조사 자동화, 노트북 생성, 슬라이드 제작",
       "status": "active"
     },
     "antigravity-awesome-skills": {
-      "path": "tools/antigravity-awesome-skills",
+      "path": "D:/Entertainments/DevEnvironment/tools/antigravity-awesome-skills",
+      "relativePath": "../tools/antigravity-awesome-skills",
       "skillCount": 621,
       "status": "available"
     },
     "my-skills": {
-      "path": "tools/my-skills",
+      "path": "D:/Entertainments/DevEnvironment/tools/my-skills",
+      "relativePath": "../tools/my-skills",
       "skillCount": 20,
       "status": "installed"
     },
     "wshobson-agents": {
-      "path": "tools/wshobson-agents",
+      "path": "D:/Entertainments/DevEnvironment/tools/wshobson-agents",
+      "relativePath": "../tools/wshobson-agents",
       "pluginCount": 72,
       "status": "available"
     },
     "anthropics-skills": {
-      "path": "tools/anthropics-skills",
+      "path": "D:/Entertainments/DevEnvironment/tools/anthropics-skills",
+      "relativePath": "../tools/anthropics-skills",
       "skillCount": 16,
       "status": "available"
     },
     "everything-claude-code": {
-      "path": "tools/everything-claude-code",
+      "path": "D:/Entertainments/DevEnvironment/tools/everything-claude-code",
+      "relativePath": "../tools/everything-claude-code",
       "agentCount": 13,
       "status": "available"
     }
