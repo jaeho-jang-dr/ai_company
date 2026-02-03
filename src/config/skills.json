@@ -1,0 +1,181 @@
+{
+  "skill_collections": {
+    "퀀텀점프20스킬": {
+      "id": "quantum-jump-20",
+      "name": "퀀텀점프 20스킬",
+      "nameEn": "Quantum Jump 20 Skills",
+      "path": "src/skills/퀀텀점프20스킬",
+      "installedPath": ".claude/skills",
+      "count": 20,
+      "source": {
+        "repository": "bear2u/my-skills",
+        "url": "https://github.com/bear2u/my-skills",
+        "author": "정상욱 (퀀텀점프클럽)"
+      },
+      "status": "active",
+      "installedAt": "2026-02-03"
+    },
+    "특이점빌더스스킬": {
+      "id": "singularity-builders-92",
+      "name": "특이점빌더스 92스킬",
+      "nameEn": "Singularity Builders 92 Skills",
+      "path": "src/skills/특이점빌더스스킬",
+      "count": 92,
+      "source": {
+        "repository": "pending",
+        "url": "https://quantumjumpclub.com",
+        "author": "특이점 빌더스 강의"
+      },
+      "status": "pending",
+      "note": "강의 수강 후 추가 예정"
+    }
+  },
+  "department_assignments": {
+    "creative": {
+      "departmentKr": "크리에이티브",
+      "skills": [
+        {
+          "skill": "card-news-generator",
+          "team": "design",
+          "assignedTo": "ui-designer",
+          "purpose": "인스타그램 카드뉴스 생성"
+        },
+        {
+          "skill": "card-news-generator-v2",
+          "team": "design",
+          "assignedTo": "ui-designer",
+          "purpose": "배경이미지 카드뉴스 생성"
+        },
+        {
+          "skill": "midjourney-cardnews-bg",
+          "team": "design",
+          "assignedTo": "brand-designer",
+          "purpose": "미드저니 배경 프롬프트"
+        },
+        {
+          "skill": "design-prompt-generator-v2",
+          "team": "design",
+          "assignedTo": "design-lead",
+          "purpose": "AI 디자인 프롬프트 생성"
+        },
+        {
+          "skill": "frontend-design",
+          "team": "design",
+          "assignedTo": "ui-designer",
+          "purpose": "프론트엔드 디자인"
+        },
+        {
+          "skill": "landing-page-guide",
+          "team": "content",
+          "assignedTo": "content-lead",
+          "purpose": "랜딩페이지 가이드"
+        },
+        {
+          "skill": "landing-page-guide-v2",
+          "team": "content",
+          "assignedTo": "content-lead",
+          "purpose": "고급 랜딩페이지 제작"
+        }
+      ]
+    },
+    "engineering": {
+      "departmentKr": "엔지니어링",
+      "skills": [
+        {
+          "skill": "flutter-init",
+          "team": "frontend",
+          "assignedTo": "mobile-developer",
+          "purpose": "Flutter 프로젝트 자동 생성"
+        },
+        {
+          "skill": "nextjs15-init",
+          "team": "frontend",
+          "assignedTo": "frontend-lead",
+          "purpose": "Next.js 15 프로젝트 생성"
+        },
+        {
+          "skill": "codex",
+          "team": "backend",
+          "assignedTo": "backend-lead",
+          "purpose": "OpenAI Codex 코드 분석"
+        },
+        {
+          "skill": "codex-claude-loop",
+          "team": "architecture",
+          "assignedTo": "chief-architect",
+          "purpose": "이중 AI 검증 루프"
+        },
+        {
+          "skill": "codex-claude-cursor-loop",
+          "team": "architecture",
+          "assignedTo": "tech-lead",
+          "purpose": "3중 AI 엔지니어링"
+        },
+        {
+          "skill": "code-changelog",
+          "team": "devops",
+          "assignedTo": "devops-lead",
+          "purpose": "코드 변경사항 문서화"
+        },
+        {
+          "skill": "code-prompt-coach",
+          "team": "architecture",
+          "assignedTo": "solution-architect",
+          "purpose": "프롬프트 품질 분석"
+        },
+        {
+          "skill": "gemini-logo-remover",
+          "team": "data",
+          "assignedTo": "data-engineer",
+          "purpose": "워터마크 제거"
+        }
+      ]
+    },
+    "operations": {
+      "departmentKr": "운영",
+      "skills": [
+        {
+          "skill": "workthrough",
+          "team": "project-management",
+          "assignedTo": "pm-lead",
+          "purpose": "개발 작업 자동 문서화"
+        },
+        {
+          "skill": "workthrough-v2",
+          "team": "project-management",
+          "assignedTo": "coordinator",
+          "purpose": "문서화 + 웹 서비스"
+        },
+        {
+          "skill": "web-to-markdown",
+          "team": "support",
+          "assignedTo": "support-agent",
+          "purpose": "웹페이지 마크다운 변환"
+        }
+      ]
+    },
+    "research": {
+      "departmentKr": "연구개발",
+      "skills": [
+        {
+          "skill": "prompt-enhancer",
+          "team": "ai-research",
+          "assignedTo": "prompt-engineer",
+          "purpose": "프롬프트 품질 향상"
+        },
+        {
+          "skill": "meta-prompt-generator",
+          "team": "ai-research",
+          "assignedTo": "ai-scientist",
+          "purpose": "메타 프롬프트 생성"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-02-03",
+    "totalSkills": 20,
+    "pendingSkills": 92
+  }
+}

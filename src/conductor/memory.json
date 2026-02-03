@@ -1,0 +1,110 @@
+{
+  "conductor_memory": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-02-03T15:10:00Z",
+    "company": "AI Nexus Corporation"
+  },
+  "skill_collections": {
+    "퀀텀점프20스킬": {
+      "id": "quantum-jump-20",
+      "status": "active",
+      "count": 20,
+      "source": "bear2u/my-skills",
+      "author": "정상욱 (퀀텀점프클럽)",
+      "installedAt": "2026-02-03",
+      "skills": [
+        "card-news-generator",
+        "card-news-generator-v2",
+        "code-changelog",
+        "code-prompt-coach",
+        "codex",
+        "codex-claude-cursor-loop",
+        "codex-claude-loop",
+        "design-prompt-generator-v2",
+        "flutter-init",
+        "frontend-design",
+        "gemini-logo-remover",
+        "landing-page-guide",
+        "landing-page-guide-v2",
+        "meta-prompt-generator",
+        "midjourney-cardnews-bg",
+        "nextjs15-init",
+        "prompt-enhancer",
+        "web-to-markdown",
+        "workthrough",
+        "workthrough-v2"
+      ],
+      "department_assignments": {
+        "creative": ["card-news-generator", "card-news-generator-v2", "midjourney-cardnews-bg", "design-prompt-generator-v2", "frontend-design", "landing-page-guide", "landing-page-guide-v2"],
+        "engineering": ["flutter-init", "nextjs15-init", "codex", "codex-claude-loop", "codex-claude-cursor-loop", "code-changelog", "code-prompt-coach", "gemini-logo-remover"],
+        "operations": ["workthrough", "workthrough-v2", "web-to-markdown"],
+        "research": ["prompt-enhancer", "meta-prompt-generator"]
+      }
+    },
+    "특이점빌더스스킬": {
+      "id": "singularity-builders-92",
+      "status": "pending",
+      "count": 92,
+      "source": "특이점 빌더스 강의",
+      "author": "정상욱 (퀀텀점프클럽)",
+      "note": "강의 수강 후 추가 예정",
+      "expectedSkills": [
+        "ImageGen",
+        "VideoGen",
+        "CEO Advisor",
+        "Market Research Report",
+        "Meta/Google Ads",
+        "SEO",
+        "OCR",
+        "Excel",
+        "PDF",
+        "Chart Generation",
+        "... 외 82개"
+      ]
+    }
+  },
+  "tool_repositories": {
+    "notebooklm-automation": {
+      "path": "tools/notebooklm-automation",
+      "purpose": "자료조사 자동화, 노트북 생성, 슬라이드 제작",
+      "status": "active"
+    },
+    "antigravity-awesome-skills": {
+      "path": "tools/antigravity-awesome-skills",
+      "skillCount": 621,
+      "status": "available"
+    },
+    "my-skills": {
+      "path": "tools/my-skills",
+      "skillCount": 20,
+      "status": "installed"
+    },
+    "wshobson-agents": {
+      "path": "tools/wshobson-agents",
+      "pluginCount": 72,
+      "status": "available"
+    },
+    "anthropics-skills": {
+      "path": "tools/anthropics-skills",
+      "skillCount": 16,
+      "status": "available"
+    },
+    "everything-claude-code": {
+      "path": "tools/everything-claude-code",
+      "agentCount": 13,
+      "status": "available"
+    }
+  },
+  "notebooklm_references": {
+    "10팀AI에이전트시스템": {
+      "notebookId": "68456c3a-2e61-4a98-b2f8-830c89414b7a",
+      "title": "클로드 코드로 구축하는 10개 팀 AI 에이전트 시스템",
+      "reportUrl": "https://docs.google.com/document/d/15v1bh2ARbZPdiQsUpY_Mx3fA19UceotSKplUeOeke-o",
+      "source": "퀀텀점프클럽 유튜브"
+    },
+    "1인기업자동화": {
+      "notebookId": "0f24bd71-f9ca-46f8-9104-1769777ede2a",
+      "title": "구글 NotebookLM과 안티그래비티를 활용한 1인 기업 자동화 전략"
+    }
+  }
+}

@@ -35,3 +35,9 @@ coverage/
 tmp/
 temp/
 *.tmp
+
+# External tool repositories (cloned separately)
+tools/
+
+# Windows artifacts
+nul
